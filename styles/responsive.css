@@ -1,18 +1,47 @@
  
- @media screen and (max-width: 600px) {
+ @media screen and (max-width:1110px) {
     
-    .container{
-        width: 100%;
-    }
     .button-card{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         width: 90%;
-        margin-bottom: 30px;
     }
     .button-card .card button{
         margin-top: 10px;
         width: 90%;
     }
+
+ }
+ @media screen and (max-width: 600px) {
+    
+    .container{
+        width: 100%;
+    }
+    .button-card,
+    .destination-img .img1,
+    .destination-img .img2,
+    .destination-img .img3{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        /* margin-bottom: 30px; */
+        margin: 30px auto;
+    }
+    .button-card .card button,
+    .info-section,
+    .img-section,
+    .destination-title{
+        margin-top: 10px;
+        width: 90%;
+    }
+    .nav-container,
+    .nav-right,
+    .popular-section{
+        flex-direction: column;
+    }
+    .destination-img .image img {
+        width: 100%;
+        max-height: 300px;
+    }
+    
     
    
  }
