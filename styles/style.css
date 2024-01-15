@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:wght@300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.nav-container{
+    display: flex;
+
+}
+.nav-left{
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+}
+.nav-left h2{
+    margin-left: 16px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.nav-left .span{
+    color: #FF5400;
+}
+.nav-right{
+    border: 1px solid darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.nav-right .color{
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-right a{
+    text-decoration: none;
+    color:  #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* banner section style start here */
+
+.banner-section{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: bottom center;
+    /* min-height: 350px; */
+    text-align: center;
+    padding: 30px;
+}
+.banner-container{
+    border: 1px solid aqua;
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.banner-container h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+.banner-container p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.button-card{
+    border: 2px solid gold;
+    /* display: inline-block; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 70%;
+    margin: 30px auto;
+
+}
+.button-card .card button{
+    padding: 10px 16px;
+    width: 150px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-card .card .last-button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.b,.c{
+    margin-left: 10px;
+}
+/* banner section style end here */
