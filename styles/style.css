@@ -55,9 +55,7 @@
     font-size: 18px;
     font-weight: 400;
 }
-.navbar{
-    /* display: none; */
-}
+
 
 /* banner section style start here */
 
@@ -380,6 +378,22 @@ form input{
     font-weight: 800;
 }
 /* newsletter-section end */
+
+/* sponsor section start */
+
+.sponsor-section h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+}
+.sponsor-section .sponsor-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* sponsor section end */
 
 /* footer section start here */
 footer{

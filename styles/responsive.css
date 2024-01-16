@@ -29,9 +29,9 @@
     .container{
         width: 90%;
     }
-    .navbar{
+    /* .navbar{
         display: block;
-    }
+    } */
     
     .button-card,
     .destination-img .img1,
@@ -66,7 +66,8 @@
     .nav-right,
     .popular-section,
     .why-card .card1,
-    .sub-container{
+    .sub-container,
+    .sponsor-section .sponsor-img{
         flex-direction: column;
     }
     .destination-img .image img {
