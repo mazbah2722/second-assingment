@@ -279,6 +279,80 @@
 
 /* why chose section end */
 
+/* deals section start */
+.deals-section .deals-title{
+    text-align: center;
+    /* max-width: 643px; */
+
+}
+.deals-card1 img{
+    position: relative;
+}
+.deals-card1 .sub-1{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    bottom: 30px;
+}
+.sub-1 .one{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* deals section end */
+
+/* place section start */
+.place-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-area{
+    /* max-width: 532px; */
+    width: 48%;
+}
+.text-area h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.text-area p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.list{
+    margin-left: 14px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.list button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 16px;
+    border: 0;
+    margin-top: 16px;
+}
+.media-area{
+    width: 48%;
+}
+.media-area img{
+    width: 100%;
+}
+
+/* place section end */
+
 /* newsletter-section start */
 .f-container{
     width: 70%;
@@ -298,7 +372,7 @@
    
 } */
 .newsletter-section .form-section{
-    width: 48%;
+    width: 40%;
     padding: 30px;
 }
 .newsletter-section .form-section h1{
@@ -320,7 +394,7 @@
     margin-bottom: 20px ;
 }
 .newsletter-section .img-section{
-    width: 48%;
+    width: 58%;
     /* border: 1px solid red; */
     position: relative;
 }

@@ -53,7 +53,9 @@
     .button-card .card button,
     .info-section,
     .img-section,
-    .destination-title{
+    .destination-title,
+    .text-area,
+    .media-area{
         margin-top: 10px;
         width: 90%;
     }
@@ -67,7 +69,8 @@
     .popular-section,
     .why-card .card1,
     .sub-container,
-    .sponsor-section .sponsor-img{
+    .sponsor-section .sponsor-img,
+    .place-section{
         flex-direction: column;
     }
     .destination-img .image img {
