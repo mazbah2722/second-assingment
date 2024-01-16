@@ -73,6 +73,9 @@
     .place-section{
         flex-direction: column;
     }
+    .nav-right,.nav-right a{
+        margin-top: 16px;
+    }
     .destination-img .image img {
         width: 100%;
         max-height: 300px;

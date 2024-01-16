@@ -120,9 +120,7 @@
     font-weight: 700;
     
 }
-.b,.c{
-    /* margin-left: 10px; */
-}
+
 /* banner section style end here */
 
 /* popular info section start here */
@@ -216,9 +214,7 @@
 /* destination section end */
 
 /* why chose section start */
-.why-chose-section{
-    
-}
+
 .why-chose-section .why-title{
     max-width: 643px;
     margin: 70px auto;
@@ -357,7 +353,7 @@
 .f-container{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid darkred;
+    border: 1px solid #FF5400;
     border-radius: 8px;
 }
 .sub-container{
@@ -367,10 +363,7 @@
     /* align-items: center; */
    
 }
-/* .newsletter-section{
-   
-   
-} */
+
 .newsletter-section .form-section{
     width: 40%;
     padding: 30px;
@@ -464,7 +457,7 @@ form input{
 .sponsor-section .sponsor-img{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* sponsor section end */
