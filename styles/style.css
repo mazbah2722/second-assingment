@@ -39,6 +39,7 @@
 .nav-right{
     /* border: 1px solid darkred; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 50%;
@@ -148,7 +149,7 @@
     margin-bottom: 16px; */
     margin: 16px 14px;
 }
-.info-section .p-btn{
+.info-section .p-btn, .d-btn{
     margin-top: 16px;
     padding: 8px 30px;
     border-radius: 8px;
@@ -281,21 +282,42 @@
     /* max-width: 643px; */
 
 }
-.deals-card1 img{
+
+.deals-card1{
     position: relative;
 }
-.deals-card1 .sub-1{
+.sub-1{
     border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
+    
+    background: rgba(212, 56, 56, 0.8);
     backdrop-filter: blur(2.5px);
     position: absolute;
-    bottom: 30px;
+    
+    right: 75px;
+    bottom: 95px;
+    max-width:  579px;
+    /* max-height: 389px; */
+    /* z-index: 1; */
+}
+.sub-1 .s-container{
+    padding: 30px 40px;
 }
 .sub-1 .one{
     display: flex;
     align-items: center;
+    border: 1px solid sienna;
     
+}
+.sub-1 .sub1-icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.sub-1 .sub1-icon .one{
+    margin-right: 18px;
+}
+.sub-1 .sub1-icon .one img{
+    margin-right: 8px;
 }
 
 
@@ -458,6 +480,7 @@ form input{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* sponsor section end */
