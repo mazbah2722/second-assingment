@@ -217,5 +217,215 @@
 .why-chose-section{
     
 }
+.why-chose-section .why-title{
+    max-width: 643px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.why-chose-section .w-h1{
+    margin-bottom: 14px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-chose-section .w-p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.why-card .card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-card .card1 .one-card{
+    width: 48%;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+.why-card .card1 .two-card{
+    width: 48%;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.why-card .card2{
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+.why-card .card h1{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    margin-top: 7px;
+
+}
+.why-card .card p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
 
 /* why chose section end */
+
+/* newsletter-section start */
+.f-container{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid darkred;
+    border-radius: 8px;
+}
+.sub-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+}
+/* .newsletter-section{
+   
+   
+} */
+.newsletter-section .form-section{
+    width: 48%;
+    padding: 30px;
+}
+.newsletter-section .form-section h1{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.newsletter-section .form-section p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 350px;
+    margin-bottom: 30px;
+
+}
+.newsletter-section .form-section hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 20px ;
+}
+.newsletter-section .img-section{
+    width: 48%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.img-section img{
+    width: 100%;
+    height: 100%;
+}
+.offer-div{
+    background: ;
+    width: 272px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 43px;
+    right: 20px;
+}
+.offer-div p{
+    color: #FFF;
+    font-size: 15.854px;
+    font-weight: 400;
+
+}
+.offer-div h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 100%;
+    margin-top: 18px;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.submit-btn{
+
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* newsletter-section end */
+
+/* footer section start here */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo h2{
+    margin-left: 16px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.footer-logo .span{
+    color: #FF5400;
+}
+.footer-section p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 769px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+.icon span{
+    margin-right: 16px;
+    font-size: 22px;
+}
+.last-p{
+    margin-top: 30px;
+}
+.hr{
+    border-bottom: 1px solid darkred;
+}
+
+/* footer section end here */

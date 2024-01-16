@@ -9,20 +9,41 @@
         margin-top: 10px;
         width: 90%;
     }
+    .offer-div{
+        border-radius: 8px;
+        width: 150px;
+        height: 70px;
+        bottom: 25px;
+        right: 8px;
+    }
+
+    .offer-div h1{
+        font-size: 18px;
+        font-weight: 800;
+    
+    }
 
  }
  @media screen and (max-width: 600px) {
     
     .container{
-        width: 100%;
+        width: 90%;
     }
     .button-card,
     .destination-img .img1,
     .destination-img .img2,
-    .destination-img .img3{
+    .destination-img .img3,
+    .why-card .card1,
+    .why-card .card1 .one-card,
+    .why-card .card1 .two-card,
+    
+    .sub-container{
         grid-template-columns: repeat(1,1fr);
         width: 90%;
-        /* margin-bottom: 30px; */
+        margin: 30px auto;
+    }
+    .why-card .card2{
+        width: 80%;
         margin: 30px auto;
     }
     .button-card .card button,
@@ -32,16 +53,38 @@
         margin-top: 10px;
         width: 90%;
     }
+    .newsletter-section .img-section,
+    .newsletter-section .form-section{
+        margin-top: 10px;
+        width: 100%;
+    }
     .nav-container,
     .nav-right,
-    .popular-section{
+    .popular-section,
+    .why-card .card1,
+    .sub-container{
         flex-direction: column;
     }
     .destination-img .image img {
         width: 100%;
         max-height: 300px;
     }
+    .newsletter-section .img-section{
+        margin: 20px auto;
+    }
+    .offer-div{
+        border-radius: 8px;
+        width: 150px;
+        height: 70px;
+        bottom: 25px;
+        right: 8px;
+    }
+
+    .offer-div h1{
+        font-size: 18px;
+        font-weight: 800;
     
+    }
     
    
  }
