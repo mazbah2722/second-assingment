@@ -29,6 +29,10 @@
     .container{
         width: 90%;
     }
+    .navbar{
+        display: block;
+    }
+    
     .button-card,
     .destination-img .img1,
     .destination-img .img2,

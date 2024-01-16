@@ -42,6 +42,7 @@
     justify-content: space-between;
     align-items: center;
     width: 50%;
+  
 }
 .nav-right .color{
     color: #FF5400;
@@ -53,6 +54,9 @@
     color:  #424247;
     font-size: 18px;
     font-weight: 400;
+}
+.navbar{
+    /* display: none; */
 }
 
 /* banner section style start here */
@@ -383,15 +387,12 @@ footer{
 }
 .footer-section{
     padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .footer-logo{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 .footer-logo h2{
@@ -399,6 +400,7 @@ footer{
     color: #131318;
     font-size: 36px;
     font-weight: 800;
+
 
 }
 .footer-logo .span{
@@ -410,22 +412,21 @@ footer{
     font-size: 16px;
     font-weight: 400;
     max-width: 769px;
+    margin: 0 auto;
 }
 .icon{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 33px;
+    margin-bottom: 36px;
 }
 .icon span{
     margin-right: 16px;
     font-size: 22px;
 }
-.last-p{
-    margin-top: 30px;
-}
 .hr{
-    border-bottom: 1px solid darkred;
+    margin-bottom: 45px;
 }
 
 /* footer section end here */
