@@ -2,7 +2,7 @@
  @media screen and (max-width:1114px) {
     
     .button-card{
-        grid-template-columns: repeat(2,1fr);
+        /* grid-template-columns: repeat(2,1fr); */
         width: 90%;
     }
     .button-card .card button{
@@ -27,8 +27,12 @@
     }
 
  }
- @media screen and (max-width: 776px) {
+ @media screen and (max-width: 970px) {
     
+    .button-card{
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+    }
     .card{
         width: 90%;
         margin: 0 auto;
