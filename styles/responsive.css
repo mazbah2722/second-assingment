@@ -1,5 +1,5 @@
  
- @media screen and (max-width:1110px) {
+ @media screen and (max-width:1114px) {
     
     .button-card{
         grid-template-columns: repeat(2,1fr);
@@ -22,11 +22,27 @@
         font-weight: 800;
     
     }
+    .logo-part{
+        font-size: 14px;
+    }
 
+ }
+ @media screen and (max-width: 776px) {
+    
+    .card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logo-part{
+        font-size: 14px;
+    }
  }
  @media screen and (max-width: 600px) {
     
     .container{
+        width: 90%;
+    }
+    .container1{
         width: 90%;
     }
     /* .navbar{
@@ -58,6 +74,17 @@
     .media-area{
         margin-top: 10px;
         width: 90%;
+    }
+    .d-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logo-part{
+        font-size: 14px;
+    }
+    .logo-part .text{
+        margin-left: 4px;
+       
     }
     .newsletter-section .img-section,
     .newsletter-section .form-section{

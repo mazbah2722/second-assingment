@@ -277,47 +277,87 @@
 /* why chose section end */
 
 /* deals section start */
-.deals-section .deals-title{
+
+.d-title{
     text-align: center;
-    /* max-width: 643px; */
-
 }
-
-.deals-card1{
-    position: relative;
+.d-title h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
-.sub-1{
-    border-radius: 16px;
-    
-    background: rgba(212, 56, 56, 0.8);
-    backdrop-filter: blur(2.5px);
-    position: absolute;
-    
-    right: 75px;
-    bottom: 95px;
-    max-width:  579px;
-    /* max-height: 389px; */
-    /* z-index: 1; */
+.d-title p{
+    max-width: 643px;
+    margin: 10px auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
-.sub-1 .s-container{
-    padding: 30px 40px;
-}
-.sub-1 .one{
+.card-container{
+    background: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-position: bottom center;
+    padding: 40px;
     display: flex;
-    align-items: center;
-    border: 1px solid sienna;
-    
+    justify-content: end;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
-.sub-1 .sub1-icon{
+.card-container2{
+    background: url(../Images/Group\ 40.png);
+    background-size: cover;
+    background-position: bottom center;
+    padding: 40px;
     display: flex;
-    align-items: center;
     justify-content: start;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
-.sub-1 .sub1-icon .one{
-    margin-right: 18px;
+.d-card{
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 30px;
 }
-.sub-1 .sub1-icon .one img{
-    margin-right: 8px;
+.d-card h1{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.d-card p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.d-card h4{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.d-card button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 16px;
+    border: 0;
+    margin-top: 12px;
+}
+.logo-part span{
+    color: #5A5A5D;
+}
+.logo-part .text{
+    margin-left: 2px;
+}
+.d-card .logo-part .fa-solid{
+    color: #FF5400;
 }
 
 
