@@ -40,6 +40,15 @@
     .logo-part{
         font-size: 14px;
     }
+    .img-title1,.img-title2 ,.img-title7{
+       
+        left: 29%;
+        
+    }
+    .img-title3,.img-title4,.img-title5,.img-title6 {
+    
+        left: 14.5%;
+    }
  }
  @media screen and (max-width: 600px) {
     
@@ -126,6 +135,15 @@
         font-size: 18px;
         font-weight: 800;
     
+    }
+    .img-title1,.img-title2,.img-title3, .img-title5 ,.img-title7 {
+       
+        left: 39%;
+        
+    }
+    .img-title4,.img-title6 {
+      
+        left: 35%;
     }
     
    

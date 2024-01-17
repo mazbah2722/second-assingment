@@ -194,22 +194,39 @@
 .destination-img .img1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    gap: 14px;
     object-fit: cover;
 }
 .destination-img .img2{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 14px;
     margin-top: 10px;
     object-fit: cover;
 }
 .destination-img .img3{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 14px;
     margin-top: 10px;
     object-fit: cover;
+}
+#image1, #image2, #image3, #image4, #image5, #image6, #image7{
+    position: relative;
+   
+}
+.img-title1,.img-title2 ,.img-title7{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 40%;
+    
+}
+.img-title3,.img-title4,.img-title5,.img-title6 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 35%;
 }
 
 /* destination section end */
